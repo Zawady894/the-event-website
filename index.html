@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Nairobi National Polytechnic</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5fbff;
+}
+
+header{
+    background:#87CEEB;
+    color:#003366;
+    text-align:center;
+    padding:25px;
+}
+
+header h1{
+    animation: glow 2s infinite;
+}
+
+@keyframes glow{
+    50%{
+        text-shadow:0 0 15px white;
+    }
+}
+
+nav{
+    background:#003366;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:pink;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#87CEEB;
+}
+
+.hero{
+    background:url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=80');
+    height:500px;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.hero h2{
+    background:rgba(255,255,255,0.8);
+    padding:20px;
+    border-radius:10px;
+    color:#003366;
+}
+
+section{
+    padding:40px;
+}
+
+h2{
+    text-align:center;
+    color:#003366;
+    margin-bottom:20px;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.card{
+    background:white;
+    width:280px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+.gallery img{
+    width:300px;
+    height:200px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:pink;
+}
+
+table,th,td{
+    border:1px solid #ccc;
+}
+
+th{
+    background:#87CEEB;
+    color:#003366;
+}
+
+th,td{
+    padding:12px;
+}
+
+form{
+    background:white;
+    max-width:600px;
+    margin:auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+input,select{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+}
+
+button{
+    background:#003366;
+    color:white;
+    border:none;
+    padding:12px;
+    width:100%;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#87CEEB;
+    color:#003366;
+}
+
+footer{
+    background:#003366;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>THE NAIROBI NATIONAL POLYTECHNIC</h1>
+<p>Excellence Through Technical Education and Innovation</p>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#courses">Courses</a>
+<a href="#departments">Departments</a>
+<a href="#teachers">Teachers</a>
+<a href="#portal">Student Portal</a>
+<a href="#gallery">Gallery</a>
+<a href="#register">Register</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+<h2>Welcome to The Nairobi National Polytechnic</h2>
+</div>
+
+<section id="about">
+<h2>About Us</h2>
+<p style="text-align:center;">
+The Nairobi National Polytechnic is a leading TVET institution offering quality
+training in ICT, Engineering, Business, Hospitality and Applied Sciences.
+</p>
+</section>
+
+<section id="courses">
+<h2>Courses Offered</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Diploma in ICT</h3>
+<p>Programming, Networking, Databases and Web Development.</p>
+</div>
+
+<div class="card">
+<h3>Electrical Engineering</h3>
+<p>Installation, Maintenance and Power Systems.</p>
+</div>
+
+<div class="card">
+<h3>Business Management</h3>
+<p>Accounting, Marketing and Entrepreneurship.</p>
+</div>
+
+</div>
+</section>
+
+<section id="departments">
+<h2>Departments</h2>
+
+<div class="cards">
+
+<div class="card">ICT Department</div>
+<div class="card">Business Department</div>
+<div class="card">Electrical Engineering Department</div>
+<div class="card">Hospitality Department</div>
+<div class="card">Building & Civil Engineering</div>
+<div class="card">Applied Sciences Department</div>
+
+</div>
+</section>
+
+<section id="teachers">
+<h2>Our Teachers</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Mr. John Kamau</h3>
+<p>ICT Lecturer</p>
+</div>
+
+<div class="card">
+<h3>Ms. Jane Wanjiku</h3>
+<p>Business Lecturer</p>
+</div>
+
+<div class="card">
+<h3>Mr. Peter Otieno</h3>
+<p>Engineering Lecturer</p>
+</div>
+
+</div>
+</section>
+
+<section id="portal">
+<h2>Student Portal</h2>
+
+<table>
+
+<tr>
+<th>Student Name</th>
+<td>Ruth Zawady</td>
+</tr>
+
+<tr>
+<th>Admission Number</th>
+<td>NNP/ICT/001</td>
+</tr>
+
+<tr>
+<th>Course</th>
+<td>Diploma in ICT</td>
+</tr>
+
+<tr>
+<th>Class</th>
+<td>ICT Level 6</td>
+</tr>
+
+<tr>
+<th>Fee Balance</th>
+<td>Ksh 15,000</td>
+</tr>
+
+<tr>
+<th>Fee Status</th>
+<td>Partially Paid</td>
+</tr>
+
+</table>
+</section>
+
+<section id="gallery">
+<h2>School Gallery</h2>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=600&q=80">
+<img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=80">
+<img src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=600&q=80">
+
+</div>
+</section>
+
+<section id="register">
+<h2>Student Registration Form</h2>
+
+<form>
+
+<input type="text" placeholder="Full Name" required>
+<input type="text" placeholder="Admission Number" required>
+<input type="email" placeholder="Email Address" required>
+
+<select>
+<option>Select Course</option>
+<option>Diploma in ICT</option>
+<option>Electrical Engineering</option>
+<option>Business Management</option>
+</select>
+
+<button type="submit">Register</button>
+
+</form>
+</section>
+
+<section id="contact">
+<h2>Contact Us</h2>
+
+<p style="text-align:center;">
+📍 Nairobi, Kenya<br><br>
+📞 +254 700 123 456<br><br>
+✉ info@nairobipoly.ac.ke
+</p>
+
+</section>
+
+<footer>
+<p>© 2026 The Nairobi National Polytechnic | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
